@@ -13,13 +13,21 @@ function dark() {
     document.getElementById("light").style.display = "block"
 
 }
-
 function theme() {
+    // Toggles dark mode on the body
     document.body.classList.toggle("dark-mode");
-    const label = document.getElementsByClassName("label");
-    for (let i = 0; i < label.length; i++) {
-        label[i].classList.add("dark")
-    }
+    
+    // Select all labels and toggle the 'dark' class based on the body state
+    const labels = document.querySelectorAll(".label");
+    const isDarkMode = document.body.classList.contains("dark-mode");
+    
+    labels.forEach(label => {
+        if (isDarkMode) {
+            label.classList.add("dark");
+        } else {
+            label.classList.remove("dark");
+        }
+    });
 }
 
 function navtoggle() {
