@@ -28,17 +28,12 @@ function navtoggle() {
 
 
 // ----------------------multi Tag line---------------------------------------
-
 var typingEffect = new Typed(".multiText", {
-
-    strings: ["ETCE", "AWS", "DATA_ANALYTICS<span > / </span>PYTHON"],
-
+    // Added your new core skills to the rotation
+    strings: ["Web Developer", "Cyber Security", "AWS Cloud", "Linux Expert", "ETCE Graduate"],
     loop: true,
-
     typeSpeed: 100,
-
     backSpeed: 80,
-
     backDelay: 1500
 });
 
