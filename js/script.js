@@ -31,7 +31,7 @@ function navtoggle() {
 
 var typingEffect = new Typed(".multiText", {
 
-    strings: ["BCA Graduate", "Web Developer", "UI<span > / </span>UX Designer"],
+    strings: ["ETCE", "AWS", "DATA_ANALYTICS<span > / </span>PYTHON"],
 
     loop: true,
 
